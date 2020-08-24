@@ -1,0 +1,211 @@
+
+/*-------Base Styles--------*/
+*{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2b2b2b;
+}
+
+/*------Grid------*/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+   float: left;
+   width: 400px;
+}
+
+
+/*---------header-------*/
+
+
+header{
+    background-image: url("../img/hero.png");
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+      
+}
+
+header h1{
+    color: #bbc085;
+    font-family: 'lora', serif;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+
+/*-------Navigation menu---*/
+
+nav {
+    float: right; 
+    padding: 75px 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #828282;
+    font-size: 18px;
+    padding-left: 80px; 
+    text-transform: none;
+    text-decoration: none; 
+}
+
+header h2 {
+    clear: both;
+    color: #9b9b9b;
+    font-family: 'lora', serif;
+    font-size: 72px;
+    line-height: 80px;     
+    padding: 20px 0 20px 25px;
+    width: 950px;
+}
+header h2 span {
+    color: black;
+}
+/*------About section------*/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+/*-----headings and paras----*/
+
+#about h2{
+    font-family: "lora", serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 35px 0 20px;
+}
+
+
+/*-------Work section-----*/
+
+#work{
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width{
+    padding: 115px 0px;
+}
+
+
+#work .h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#work .p{
+    font-family: "lora", serif;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 0 50px;
+}
+
+
+/*-------Contact section-----*/
+
+#contact{
+    background-color: #ebebeb;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-image {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+
+#contact ul{
+    list-style-type: none;
+}
+
+#contact li{
+    display: inline-block;
+}
+
+#contact ul img{
+    padding-right: 48px;
+}
+#contact h2 {
+    font-family: 'lora', serif;
+    font-size: 36px;
+    line-height: 10px;
+}
+
+#contact h3{
+    font-size: 32px;
+    font-weight: 100; 
+    line-height: 10px; 
+}
+
+#contact a {
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 10px; 
+}
+
+#contact h4{
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 60px;
+}
+
+
+
+/*------second page------*/
+
+
+/*------Projects-----*/
+    
+#projects .half-width {
+    text-align: center;
+}
+
+#projects a {
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+}
+
+#project iframe {
+    margin: 15px;
+
+}
+/*------2nd page footer----*/
+
+footer {
+    background-color: #f9ceb7;
+    clear: both;
+    padding: 50px 0;
+   text-align: center;
+}
+
+footer a {
+    font-family:'lora', serif;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
